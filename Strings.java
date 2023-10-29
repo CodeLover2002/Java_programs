@@ -1,4 +1,4 @@
-/** This file contains ALL String, StringBuffer, StringBuilder and StringTokenizer functions */
+/** This file contains ALL String functions */
 import java.util.*;
 class Strings
 {
