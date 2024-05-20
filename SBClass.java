@@ -28,7 +28,9 @@ class SBClass
         System.out.println(sb.capacity());
         System.out.println(sb.insert(5,"World! ")); // Inserts text at the specified index position
         System.out.println(sb.replace(10,sb.length(),"!")); // Replace one set of characters with another set inside a StringBuffer object
-        System.out.println(sb.reverse()); //Reverse the characters within a StringBuffer object 
+        System.out.println(sb.reverse()); //Reverse the characters within a StringBuffer object
+        System.out.println(sb.substring(3));//It is used to return the substring from the specified beginIndex.
+        
         
     
     }

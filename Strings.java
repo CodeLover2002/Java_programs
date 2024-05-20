@@ -1,4 +1,4 @@
-/** This file contains ALL String functions */
+/** This file contains ALL String, StringBuffer, StringBuilder and StringTokenizer functions */
 import java.util.*;
 class Strings
 {
@@ -23,7 +23,7 @@ class Strings
         char[] charay = {'H', 'e', 'l', 'l', 'o'};
         s2=s2.copyValueOf(charay,0,charay.length);   //Returns a String that represents the characters of the character array
         System.out.println(s2);
-        System.out.println(s.startsWith("H"));   //Checks whether a string ends with the specified character(s)
+        System.out.println(s.startsWith("H"));   //Checks whether a string starts with the specified character(s)
         System.out.println(s.endsWith("lo"));    //Checks whether a string ends with the specified character(s)
         System.out.println(s.equals("Hello"));   //Compares two strings. Returns true if the strings are equal, and false if not
         System.out.println(s.equalsIgnoreCase("hello")); //Compares two strings, ignoring case considerations
@@ -40,7 +40,7 @@ class Strings
         System.out.println(s.trim());    //Removes whitespace from both ends of a string
         
         String[] str = s.split(" "); //Splits a string into an array of substrings
-        for(String a: str)
+        for(String a: str) 
             System.out.println(a);   //extracting all words from a string
         
         char[] str2 = s.toCharArray();   //Converts this string to a new character array
